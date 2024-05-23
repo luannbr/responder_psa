@@ -50,6 +50,7 @@
     },
     "nao_aparece_a_logo": {
       "text": "Se você não consegue logar e não aparece a LOGO, seu problema é de DNS.",
+	  "image": {"link": "https://i.imgur.com/lKt7km3.png", "title": "Clique aqui para ver a imagem"},
       "mention_user": true,
       "buttons": [
         {"label": "Como Atualizar o DNS", "custom_id": "atualizar_dns"},
