@@ -1,0 +1,117 @@
+{
+  "não, consigo, entrar, logar, erro, senha": {
+    "text": "Olá! você não está conseguindo entrar na sua conta? O Erro se parece com essa imagem do link?",
+    "image": {"link": "https://i.imgur.com/155hQSb.png", "title": "Clique aqui para ver a imagem"},
+    "video": {"link": "", "title": ""},
+    "url": {"link": "", "title": ""},
+    "buttons": [
+      {"label": "Sim, é igual da imagem", "custom_id": "erro_senha"},
+      {"label": "Não é igual a imagem", "custom_id": "nao_aparece_a_logo"},
+      {"label": "Atualize o Aplicativo", "custom_id": "atualizar_aplicativo"}
+    ]
+  },
+  "problemas, problema, erro": {
+    "text": "Parece que você está enfrentando problemas. Aqui estão alguns recursos que podem ajudar:",
+    "image": {"link": "https://example.com/problem-image.png", "title": "Problem Image"},
+    "video": {"link": "https://example.com/problem-video.mp4", "title": "Problem Video"},
+    "url": {"link": "https://example.com/problem-url", "title": "Problem Page"},
+    "buttons": []
+  },
+  "hello, hi, hey": {
+    "text": "Hello! How can I help you today?",
+    "image": {"link": "", "title": ""},
+    "video": {"link": "", "title": ""},
+    "url": {"link": "", "title": ""},
+    "buttons": []
+  },
+  "bye, goodbye, see you": {
+    "text": "Goodbye! Have a great day!",
+    "image": {"link": "", "title": ""},
+    "video": {"link": "", "title": ""},
+    "url": {"link": "", "title": ""},
+    "buttons": []
+  },
+  "help, assist, support": {
+    "text": "Sure, what do you need help with?",
+    "image": {"link": "https://example.com/support-image.png", "title": "Support Image"},
+    "video": {"link": "https://example.com/support-video.mp4", "title": "Support Video"},
+    "url": {"link": "https://example.com/support-url", "title": "Support Page"},
+    "buttons": []
+  },
+  "button_responses": {
+    "erro_senha": {
+      "text": "Se você está com esse problema, Você está colocando senha ou entrando pelo google?",
+      "mention_user": true,
+      "buttons": [
+        {"label": "Colocando Senha", "custom_id": "colocando_senha_erro"},
+        {"label": "Login com Google", "custom_id": "login_google_erro"},
+        {"label": "Ambos os Erros", "custom_id": "problema_DNS"}
+      ]
+    },
+    "nao_aparece_a_logo": {
+      "text": "Se você não consegue logar e não aparece a LOGO, seu problema é de DNS.",
+      "mention_user": true,
+      "buttons": [
+        {"label": "Como Atualizar o DNS", "custom_id": "atualizar_dns"},
+        {"label": "Ajuda com ADM", "custom_id": "ajuda_adm"}
+      ]
+    },
+    "atualizar_aplicativo2": {
+      "text": "Atualizar Aplicativo é bem simples!",
+      "mention_user": true,
+      "buttons": [
+        {"label": "Filme com Erro", "custom_id": "movie_error"},
+        {"label": "Filme Errado", "custom_id": "wrong_movie"},
+        {"label": "Filme com legenda errada", "custom_id": "wrong_subtitles"}
+      ]
+    },
+    "atualizar_dns": {
+      "text": "Vá em configurações do android, Pesquise: DNS Privado > Clique nele > Selecione Nome do host do provedor DNS e coloque ```1dot1dot1dot1.cloudflare-dns.com```",
+      "mention_user": true,
+      "buttons": [
+        {"label": "Copiar DNS", "custom_id": "copiar_dns"},
+        {"label": "Preciso de Ajuda", "custom_id": "ajuda_adm"}
+      ]
+    },
+    "atualizar_aplicativo": {
+      "text": "Atualizar Aplicativo é bem simples! [Clique Aqui](https://centralapk.com)",
+      "mention_user": true
+    },
+    "atualizar_dns2": {
+      "text": "Vá em configurações do android, Pesquise: DNS Privado > Clique nele > Selecione Nome do host do provedor DNS e coloque ```1dot1dot1dot1.cloudflare-dns.com```",
+      "mention_user": false
+    },
+    "copiar_dns": {
+      "text": "1dot1dot1dot1.cloudflare-dns.com",
+      "mention_user": false
+    },
+    "ajuda_adm": {
+      "text": "Você quer ajuda dos Administradores, aqui estão <@&644167939590848532>",
+      "mention_user": true
+    },
+    "colocando_senha_erro": {
+      "text": "Se você não lembra sua senha, vou chamar o Administrador para te ajudar <@&644167939590848532>",
+      "mention_user": true
+    },
+    "login_google_erro": {
+      "text": "Você está tentando entrar com google e da erro? Vou chamar o Administrador para te ajudar <@&644167939590848532>",
+      "mention_user": true
+    },
+    "problema_DNS": {
+      "text": "Você não consegue entrar nem com senha e nem com google, certo? Vou chamar o Administrador para te ajudar <@&644167939590848532>",
+      "mention_user": true
+    },
+    "movie_error": {
+      "text": "Você clicou em Filme com Erro. Aqui está como relatar um erro no filme...",
+      "mention_user": true
+    },
+    "wrong_movie": {
+      "text": "Você clicou em Filme Errado. Aqui está como relatar que o filme está errado...",
+      "mention_user": true
+    },
+    "wrong_subtitles": {
+      "text": "Você clicou em Filme com legenda errada. Aqui está como relatar um problema de legenda...",
+      "mention_user": true
+    }
+  }
+}
