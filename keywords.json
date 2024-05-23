@@ -1,5 +1,5 @@
 {
-  "não, consigo, entrar, logar, erro, senha, errada, funcionando, abre": {
+  "não, consigo, acessar, entrar, erro, senha, incorreta, funcionando, abre": {
     "text": "Olá! você não está conseguindo entrar na sua conta? O Erro se parece com essa imagem do link?",
     "image": {"link": "https://i.imgur.com/155hQSb.png", "title": "Clique aqui para ver a imagem"},
     "video": {"link": "", "title": ""},
@@ -10,7 +10,7 @@
       {"label": "Atualize o Aplicativo", "custom_id": "atualizar_aplicativo"}
     ]
   },
-  "problemas, problema, carrega, girando, bola, bolinha, carregar, aba, carregando": {
+  "problemas, questão, carregamento, girando, círculo, bolinha, carregar, aba, carregando": {
     "text": "Se ao entrar no app ele fica Girando uma bolinha, Não carrega a home, Você precisa **DESLOGAR E LOGAR NOVAMENTE**, caso não resolva, altere o DNS e atualize o app",
     "image": {"link": "", "title": ""},
     "video": {"link": "", "title": ""},
@@ -21,25 +21,25 @@
       {"label": "Atualize o Aplicativo", "custom_id": "atualizar_aplicativo"}
     ]
   },
-  "anúncio, anúncios, ad, carrega, os, abre": {
-    "text": "Seus anúncios não abre? Antes está aparecendo anuncios e parou?",
+  "anúncio, anúncios, propaganda, carregar, abrir, exibir": {
+    "text": "Seus anúncios não abrem? Antes estava aparecendo anúncios e parou?",
     "image": {"link": "", "title": ""},
     "video": {"link": "", "title": ""},
     "url": {"link": "", "title": ""},
     "buttons": [
-      {"label": "Sim estáva aparecendo", "custom_id": "erro_de_cache_ou_dns"},
+      {"label": "Sim, estava aparecendo", "custom_id": "erro_de_cache_ou_dns"},
       {"label": "Não, não estava", "custom_id": "erro_dns_adblock"},
       {"label": "Acabei de instalar o app", "custom_id": "erro_dns_adblock"}
     ]
   },
-  "pix, demora, quanto, tempo, vai, demorar, agora,": {
+  "pix, demora, quanto, tempo, vai, demorar, agora": {
     "text": "Ao fazer o PIX, se foi feito pelo site normalmente alguns minutos ao entrar na conta, se foi feito pelo BOT DO DISCORD, pode demorar até 60 minutos.",
     "image": {"link": "", "title": ""},
     "video": {"link": "", "title": ""},
     "url": {"link": "", "title": ""},
     "buttons": []
   },
-  "comprar, recarregar, como, crédito, mais tempo, premium, vip": {
+  "comprar, recarregar, adquirir, crédito, mais tempo, premium, vip": {
     "text": "Quer comprar mais premium? Só clicar no link ou falar com nosso BOT <#1242838014518890517>, o tempo é acumulativo. Quanto mais comprar mais tempo tem!",
     "image": {"link": "", "title": ""},
     "video": {"link": "", "title": ""},
@@ -58,7 +58,7 @@
     },
     "nao_aparece_a_logo": {
       "text": "Se você não consegue logar e não aparece a LOGO, seu problema é de DNS.",
-	  "image": {"link": "https://i.imgur.com/lKt7km3.png", "title": "Clique aqui para ver a imagem"},
+      "image": {"link": "https://i.imgur.com/lKt7km3.png", "title": "Clique aqui para ver a imagem"},
       "mention_user": true,
       "buttons": [
         {"label": "Como Atualizar o DNS", "custom_id": "atualizar_dns"},
@@ -114,11 +114,11 @@
       "mention_user": true
     },
     "comprar_premium": {
-      "text": "Se virar premium, não assiste anuncios, faz downloads, usa proximo episódio e mais! [Comprar Premium aqui](https://premiumapp.store)",
+      "text": "Se virar premium, não assiste anúncios, faz downloads, usa próximo episódio e mais! [Comprar Premium aqui](https://premiumapp.store)",
       "mention_user": true
     },
     "erro_dns_adblock": {
-      "text": "Possivelmente tem algo bloqueando os anúncios, geralmente DNS do Adblock, Aplicativo de ADBlock (anti virus também). As vezes só reiniciar o modem do wifi resolve. Mas veja suas configurações de DNS se tiver algo desative.",
+      "text": "Possivelmente tem algo bloqueando os anúncios, geralmente DNS do Adblock, Aplicativo de ADBlock (anti vírus também). Às vezes só reiniciar o modem do WiFi resolve. Mas veja suas configurações de DNS se tiver algo, desative.",
       "mention_user": true
     }
   }
