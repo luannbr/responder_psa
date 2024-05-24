@@ -94,19 +94,19 @@
       "mention_user": false
     },
     "ajuda_adm": {
-      "text": "Você quer ajuda dos Administradores, aqui estão <@&644167939590848532>",
+      "text": "Você quer ajuda dos Administradores, aqui estão <@268557221292539906> <@135731639010459649> <@210839504599252994>",
       "mention_user": true
     },
     "colocando_senha_erro": {
-      "text": "Se você não lembra sua senha, vou chamar o Administrador para te ajudar <@&644167939590848532>",
+      "text": "Se você não lembra sua senha, vou chamar o Administrador para te ajudar <@268557221292539906> <@135731639010459649> <@210839504599252994>",
       "mention_user": true
     },
     "login_google_erro": {
-      "text": "Você está tentando entrar com google e da erro? Vou chamar o Administrador para te ajudar <@&644167939590848532>",
+      "text": "Você está tentando entrar com google e da erro? Vou chamar o Administrador para te ajudar <@268557221292539906> <@135731639010459649> <@210839504599252994>",
       "mention_user": true
     },
     "problema_DNS": {
-      "text": "Você não consegue entrar nem com senha e nem com google, certo? Vou chamar o Administrador para te ajudar <@&644167939590848532>",
+      "text": "Você não consegue entrar nem com senha e nem com google, certo? Vou chamar o Administrador para te ajudar <@268557221292539906> <@135731639010459649> <@210839504599252994>",
       "mention_user": true
     },
     "como_relogar": {
