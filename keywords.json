@@ -1,5 +1,5 @@
 {
-  "não, consigo, acessar, entrar, erro, senha, incorreta, funcionando, abre": {
+  "não, consigo, acessar, entrar, erro, senha, incorreta, funcionando, abre, login, falar, falo, com": {
     "text": "Olá! você não está conseguindo entrar na sua conta? O Erro se parece com essa imagem do link?",
     "image": {"link": "https://i.imgur.com/155hQSb.png", "title": "Clique aqui para ver a imagem"},
     "video": {"link": "", "title": ""},
@@ -10,7 +10,7 @@
       {"label": "Atualize o Aplicativo", "custom_id": "atualizar_aplicativo"}
     ]
   },
-  "problemas, questão, carregamento, girando, círculo, bolinha, carregar, aba, carregando": {
+  "problemas, problema, carregamento, girando, círculo, bolinha, carregar, aba, carregando, não carrega, não abre": {
     "text": "Se ao entrar no app ele fica Girando uma bolinha, Não carrega a home, Você precisa **DESLOGAR E LOGAR NOVAMENTE**, caso não resolva, altere o DNS e atualize o app",
     "image": {"link": "", "title": ""},
     "video": {"link": "", "title": ""},
@@ -21,7 +21,7 @@
       {"label": "Atualize o Aplicativo", "custom_id": "atualizar_aplicativo"}
     ]
   },
-  "anúncio, anúncios, propaganda, carregar, abrir, exibir": {
+  "anúncio, anúncios, propaganda, carregar, abrir, exibir, ad": {
     "text": "Seus anúncios não abrem? Antes estava aparecendo anúncios e parou?",
     "image": {"link": "", "title": ""},
     "video": {"link": "", "title": ""},
