@@ -1,125 +1,150 @@
 {
-  "não, consigo, acessar, entrar, erro, senha, incorreta, funcionando, abre, login, falar, falo, com": {
-    "text": "Olá! você não está conseguindo entrar na sua conta? O Erro se parece com essa imagem do link?",
-    "image": {"link": "https://i.imgur.com/155hQSb.png", "title": "Clique aqui para ver a imagem"},
-    "video": {"link": "", "title": ""},
-    "url": {"link": "", "title": ""},
+  "Problemas para Entrar": {
+    "text": "Olá! você não está conseguindo entrar na sua conta?\n\n As contas não utilizam senhas e sim o Login do Google!\n\n Clique no botão do Google para Entrar!!!\n\n Caso não consiga entrar, confira se está utilizando uma versão atualizada do Aplicativo.",
     "buttons": [
-      {"label": "Sim, é igual da imagem", "custom_id": "erro_senha"},
-      {"label": "Não é igual a imagem", "custom_id": "nao_aparece_a_logo"},
-      {"label": "Atualize o Aplicativo", "custom_id": "atualizar_aplicativo"}
+      {
+        "label": "Atualizar",
+        "link": "https://play.google.com/store/apps/details?id=com.centralplayseriesv8"
+      }
     ]
   },
-  "problemas, problema, carregamento, girando, círculo, bolinha, carregar, aba, carregando, não carrega, não abre": {
-    "text": "Se ao entrar no app ele fica Girando uma bolinha, Não carrega a home, Você precisa **DESLOGAR E LOGAR NOVAMENTE**, caso não resolva, altere o DNS e atualize o app",
-    "image": {"link": "", "title": ""},
-    "video": {"link": "", "title": ""},
-    "url": {"link": "", "title": ""},
-    "buttons": [
-      {"label": "Como Atualizar o DNS", "custom_id": "atualizar_dns"},
-      {"label": "Como RELOGAR", "custom_id": "como_relogar"},
-      {"label": "Atualize o Aplicativo", "custom_id": "atualizar_aplicativo"}
-    ]
-  },
-  "anúncio, anúncios, propaganda, carregar, abrir, exibir, ad": {
-    "text": "Seus anúncios não abrem? Antes estava aparecendo anúncios e parou?",
-    "image": {"link": "", "title": ""},
-    "video": {"link": "", "title": ""},
-    "url": {"link": "", "title": ""},
-    "buttons": [
-      {"label": "Sim, estava aparecendo", "custom_id": "erro_de_cache_ou_dns"},
-      {"label": "Não, não estava", "custom_id": "erro_dns_adblock"},
-      {"label": "Acabei de instalar o app", "custom_id": "erro_dns_adblock"}
-    ]
-  },
-  "pix, demora, quanto, tempo, vai, demorar, agora, comprei, liberou, liberado, ainda": {
-    "text": "Ao fazer o PIX, se foi feito pelo site normalmente alguns minutos ao entrar na conta, se foi feito pelo BOT DO DISCORD, pode demorar até 60 minutos.",
-    "image": {"link": "", "title": ""},
-    "video": {"link": "", "title": ""},
-    "url": {"link": "", "title": ""},
+  "Problemas com Premium": {
+    "text": "Comprou Premium e ainda não recebeu?\n\n Não se preocupe, o processo é automático e pode levar até 1 Hora para ser entregue caso tenha comprado aqui no *DISCORD*\n\n Se comprou no site, ele é entregue em alguns minutos.\n\n Todo o processo é automático, não é necessário confirmar, somente aguardar.",
     "buttons": []
   },
-  "comprar, recarregar, adquirir, crédito, mais tempo, premium, vip": {
-    "text": "Quer comprar mais premium? Só clicar no link ou falar com nosso BOT <#1242838014518890517>, o tempo é acumulativo. Quanto mais comprar mais tempo tem!",
-    "image": {"link": "", "title": ""},
-    "video": {"link": "", "title": ""},
-    "url": {"link": "https://premiumapp.store", "title": "Comprar Premium"},
+  "Problemas com Anúncios": {
+    "text": "Seus anúncios não abrem?\n\n Temos dois problemas comuns:\n\n **1 -** Configurou algum DNS que bloqueia anúncios.\n\n **2 -** Alterou as configurações no Desenvolvedor do Android.\n\n Reverta as configurações e Limpe o cache do Aplicativo e tente novamente.",
     "buttons": []
+  },
+  "Problemas no Carregamento Inicial": {
+    "text": "Se seu aplicativo ao entrar fica carregando infinitamente (girando uma bolinha), você precisa **DESLOGAR E LOGAR NOVAMENTE**. Caso não resolva, altere o DNS e atualize o Aplicativo!",
+    "buttons": [
+      {
+        "label": "Atualizar",
+        "custom_id": "atualizar_aplicativo"
+      },
+      {
+        "label": "Como Relogar",
+        "custom_id": "como_relogar"
+      },
+      {
+        "label": "Atualizar o DNS",
+        "custom_id": "atualizar_dns"
+      }
+    ]
+  },
+  "Quer comprar Premium?": {
+    "text": "Quer comprar premium?\n\n Temos disponivel duas opcoes pelo Discord ou pelo nosso Site!\n\n O Sistema é automático não é necessário confirmar e faz a entrega automática!!!",
+    "buttons": [
+      {
+        "label": "Pelo Site",
+        "link": "https://premiumapp.store"
+      },
+      {
+        "label": "Pelo Discord",
+        "link": "https://discord.com/channels/643597733227397172/1242838014518890517"
+      }
+    ]
+  },
+  "Capas não Aparecem": {
+    "text": "As capas dos conteúdos do aplicativo utilizam as animações do Android para carregar.\n\nSe elas não carregarem as do seu Aparelho estão Desativadas\n Para ativá-las acesse as Opções de Desenvolvedor e procure animações e ative ela.",
+    "buttons": []
+  },
+  "Conteúdo com Problema": {
+    "text": "Para reportar algum conteúdo com problema, precisaremos de mais detalhes.",
+    "buttons": [
+      {
+        "label": "Descreva o Problema",
+        "custom_id": "report_problem_button"
+      }
+    ]
   },
   "button_responses": {
     "erro_senha": {
-      "text": "Se você está com esse problema, Você está colocando senha ou entrando pelo google?",
-      "mention_user": true,
+      "text": "Se você está com esse problema, você está colocando senha ou entrando pelo Google?",
       "buttons": [
-        {"label": "Colocando Senha", "custom_id": "colocando_senha_erro"},
-        {"label": "Login com Google", "custom_id": "login_google_erro"},
-        {"label": "Ambos os Erros", "custom_id": "problema_DNS"}
+        {
+          "label": "Colocando Senha",
+          "custom_id": "colocando_senha_erro"
+        },
+        {
+          "label": "Login com Google",
+          "custom_id": "login_google_erro"
+        },
+        {
+          "label": "Ambos os Erros",
+          "custom_id": "problema_DNS"
+        }
       ]
     },
     "nao_aparece_a_logo": {
       "text": "Se você não consegue logar e não aparece a LOGO, seu problema é de DNS.",
-      "image": {"link": "https://i.imgur.com/lKt7km3.png", "title": "Clique aqui para ver a imagem"},
-      "mention_user": true,
       "buttons": [
-        {"label": "Como Atualizar o DNS", "custom_id": "atualizar_dns"},
-        {"label": "Ajuda com ADM", "custom_id": "ajuda_adm"}
+        {
+          "label": "Como Atualizar o DNS",
+          "custom_id": "atualizar_dns"
+        },
+        {
+          "label": "Ajuda com ADM",
+          "custom_id": "ajuda_adm"
+        }
       ]
     },
     "erro_de_cache_ou_dns": {
-      "text": "Possivelmente seu problema é CACHE/DADOS ou ativou algum ADBLOCK. Se for cache só **limpar o cache/dados** do app e relogar. Se for DNS ou ADBLOCK **DESATIVE**",
-      "mention_user": true,
+      "text": "Possivelmente seu problema é CACHE/DADOS ou ativou algum ADBLOCK. Se for cache, só **limpar o cache/dados** do app e relogar. Se for DNS ou ADBLOCK, **DESATIVE**",
       "buttons": [
-        {"label": "Não resolveu", "custom_id": "ajuda_adm"},
-        {"label": "Comprar Premium", "custom_id": "comprar_premium"}
+        {
+          "label": "Não resolveu",
+          "custom_id": "ajuda_adm"
+        },
+        {
+          "label": "Comprar Premium",
+          "custom_id": "comprar_premium"
+        }
       ]
     },
     "atualizar_dns": {
-      "text": "Vá em configurações do android, Pesquise: DNS Privado > Clique nele > Selecione Nome do host do provedor DNS e coloque ```1dot1dot1dot1.cloudflare-dns.com```",
-      "mention_user": true,
+      "text": "Vá em configurações do Android, pesquise: DNS Privado > Clique nele > Selecione Nome do host do provedor DNS e coloque `1dot1dot1dot1.cloudflare-dns.com`",
       "buttons": [
-        {"label": "Copiar DNS", "custom_id": "copiar_dns"},
-        {"label": "Preciso de Ajuda", "custom_id": "ajuda_adm"}
+        {
+          "label": "Copiar DNS",
+          "custom_id": "copiar_dns"
+        },
+        {
+          "label": "Preciso de Ajuda",
+          "custom_id": "ajuda_adm"
+        }
       ]
     },
     "atualizar_aplicativo": {
-      "text": "Atualizar Aplicativo é bem simples! [Clique Aqui](https://centralapk.com)",
-      "mention_user": true
-    },
-    "atualizar_dns2": {
-      "text": "Vá em configurações do android, Pesquise: DNS Privado > Clique nele > Selecione Nome do host do provedor DNS e coloque ```1dot1dot1dot1.cloudflare-dns.com```",
-      "mention_user": false
+      "text": "Atualizar Aplicativo é bem simples! [Clique Aqui](https://centralapk.com)"
     },
     "copiar_dns": {
-      "text": "1dot1dot1dot1.cloudflare-dns.com",
-      "mention_user": false
+      "text": "1dot1dot1dot1.cloudflare-dns.com"
     },
     "ajuda_adm": {
-      "text": "Você quer ajuda dos Administradores, aqui estão <@268557221292539906> <@135731639010459649> <@210839504599252994>",
-      "mention_user": true
+      "text": "Você quer ajuda dos Administradores, aqui estão <@&644167939590848532>"
     },
     "colocando_senha_erro": {
-      "text": "Se você não lembra sua senha, vou chamar o Administrador para te ajudar <@268557221292539906> <@135731639010459649> <@210839504599252994>",
-      "mention_user": true
+      "text": "Se você não lembra sua senha, vou chamar o Administrador para te ajudar <@&644167939590848532>"
     },
     "login_google_erro": {
-      "text": "Você está tentando entrar com google e da erro? Vou chamar o Administrador para te ajudar <@268557221292539906> <@135731639010459649> <@210839504599252994>",
-      "mention_user": true
+      "text": "Você está tentando entrar com Google e dá erro? Vou chamar o Administrador para te ajudar <@&644167939590848532>"
     },
     "problema_DNS": {
-      "text": "Você não consegue entrar nem com senha e nem com google, certo? Vou chamar o Administrador para te ajudar <@268557221292539906> <@135731639010459649> <@210839504599252994>",
-      "mention_user": true
+      "text": "Você não consegue entrar nem com senha e nem com Google, certo? Vou chamar o Administrador para te ajudar <@&644167939590848532>"
     },
     "como_relogar": {
-      "text": "Para relogar é bem simples. Vá na engrenagem ⚙ na home e clica em [< depois só entrar novamente.",
-      "mention_user": true
+      "text": "Para relogar é bem simples. Vá na engrenagem ⚙ na home e clique em [< depois só entrar novamente."
     },
     "comprar_premium": {
-      "text": "Se virar premium, não assiste anúncios, faz downloads, usa próximo episódio e mais! [Comprar Premium aqui](https://premiumapp.store)",
-      "mention_user": true
+      "text": "Se virar premium, não assiste anúncios, faz downloads, usa próximo episódio e mais! [Comprar Premium aqui](https://premiumapp.store)"
     },
     "erro_dns_adblock": {
-      "text": "Possivelmente tem algo bloqueando os anúncios, geralmente DNS do Adblock, Aplicativo de ADBlock (anti vírus também). Às vezes só reiniciar o modem do WiFi resolve. Mas veja suas configurações de DNS se tiver algo, desative.",
-      "mention_user": true
+      "text": "Possivelmente tem algo bloqueando os anúncios, geralmente DNS do Adblock, Aplicativo de ADBlock (antivírus também). Às vezes, só reiniciar o modem do wifi resolve. Mas veja suas configurações de DNS, se tiver algo desative."
+    },
+    "report_problem_button": {
+      "text": "Por favor, descreva o problema detalhadamente."
     }
   }
 }
